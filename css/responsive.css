@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px){
+
+	#header-navbar{
+ 	  height: 10vh;
+	}
+
+	#header-text-sec{
+	  height: 90vh;
+	}
+
+	.bg-darken{
+	display: block;
+	}
+}

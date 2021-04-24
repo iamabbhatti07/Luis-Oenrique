@@ -1,0 +1,314 @@
+html{
+	  scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'Asap', sans-serif;
+}
+
+.default-text{
+	color: #6f6f6f;
+}
+
+.whitespace{
+	height: 150px;
+	width: 100%;
+	background: white;
+}
+
+.header-h2{
+	letter-spacing: 5px;
+}
+
+
+header{
+  background-color: #dedede;
+}
+
+.logo-text-01{
+	font-size: 1.5rem;
+}
+
+.logo-text-02{
+	font-size: 0.7rem;
+}
+
+.bg-darken{
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.1);
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+#header-navbar{
+  height: 20vh;
+}
+
+#header-text-sec{
+  width: 100%;
+  height: 80vh;
+  background-image: url(../img/img\ face.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+#header-text-sec-left{
+  position: relative;
+}
+
+.header-text{
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  color: #4d4d4d;
+}
+
+
+.header-text h2{
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+
+/* navbar starts */
+.header{
+    background: url("http://a.top4top.net/p_397znzmu1.png") center center fixed;
+    color: #FFF;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -msn-background-size: cover;
+}
+.header .overlay{
+    background: rgba(0, 0, 0, 0.58);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; 
+}
+
+
+.header .navbar-default {
+	background-color:transparent !important;
+	border-color:transparent;
+	background-image:none;
+	box-shadow:none;	
+}
+.header .navbar-default .navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.header .navbar-default .navbar-nav>li>a {
+   font-size:20px; 
+   color:#fff; 
+    border-bottom: 1px solid transparent
+}
+.header .navbar-default .navbar-nav>li:hover a{
+    color: #333;
+     border-bottom: 1px solid #FFF
+}
+
+
+.header .navbar-toggle {
+      margin:10px 0; 
+      background:#36C; 
+      color:#FFF;
+}
+
+
+/* navbar ends */
+
+
+
+#about .upper-line::before{
+	left: 0;
+	transform: translate(0, 0);
+}
+
+
+
+#sevice{
+	padding: 80px 0;
+	background: #f6f6f6;
+}
+
+#sevice .col-md-4{
+	padding: 25px 0;
+}
+
+#sevice p{
+	padding: 10px 0;
+}
+
+/* testimonials */
+
+#carousel-container{
+  width: 100%;
+  height: auto;
+  border:  1px solid black;
+  padding: 80px 50px;
+}
+
+#indicators{
+  position: absolute;
+  bottom: -25px;
+}
+
+.carousel-indicators  li {
+  width: 13px;
+  height: 13px;
+  background-color: black; 
+}
+
+.carousel-left-img-div{
+  width: 25%;
+  float: left;
+}
+
+/* .carousel-right-div{ } */
+
+/* TESTIMONIALS */
+/* .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+ */
+
+
+/* funfact */
+
+#funfact{
+	padding: 80px;
+	background-color: #f6f6f6;
+}
+
+.fun-fact-img{
+	width: 100%;
+	height: 50%;
+	margin-bottom: 20px;
+}
+
+.fun-fact-img img{
+	height: 100%;
+
+}
+
+#funfact p{
+	line-height: 5px;
+}
+
+
+/* portfolio */
+
+#portfolio{
+	background: #f6f6f6;
+}
+
+#portfolio .col-md-4:hover{
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(168,168,168,1);
+-moz-box-shadow: 0px 0px 5px 0px rgba(168,168,168,1);
+box-shadow: 0px 0px 5px 0px rgba(168,168,168,1);
+z-index: 10;
+}
+
+/* footer */
+#footer{
+	background-image: url('../img/bg-background.jpg');
+	background-size: cover;
+}
+
+#footer textarea{
+	height: 208px;
+}
+#send-btn{
+	width: 100px;
+	padding: 10px 0;
+}
+
+.hr-line{
+	background: white;
+}
+
+/* 
+.hr-whiteline::before{
+	content: '';
+	width: 100%;
+	height: 3px;
+	background-color: white;
+} */
+
+
+.list-inline-item{
+	width: 35px;
+	height: 35px;
+	background: white;
+	line-height: 35px;
+}
+
+.list-inline-item a{
+	color: #222;
+}
+
+.upper-line{
+	position: relative;
+	width: 100%;
+	padding: 0;
+}
+
+.upper-line::before{
+	content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    position: absolute;
+    left: 50%;
+    top: -15px;
+    transform: translateX(-50%);
+}
+
+.upper-line-01::before{
+	background-color: #767676;
+}
+.upper-line-02::before{
+	background-color: #c1c1c1;
+}
+
+
+.upper-lower-padding{
+	padding: 140px 0 20px;
+}
+
+
+
+/* back to top button */
+
+#myBtn {
+  width: 46px;
+  height: 42px;
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 70px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: white; /* Set a background color */
+  color: #555; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  border-radius: 0px; /* Rounded corners */
+  font-size: 2rem; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #ccc; /* Add a dark-grey background on hover */
+}
